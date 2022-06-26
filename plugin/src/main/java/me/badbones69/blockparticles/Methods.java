@@ -280,7 +280,7 @@ public class Methods implements Listener {
         Files.DATA.saveFile();
         kill();
         startParticles();
-        player.sendMessage(color(Prefix + "&3You have added &6" + name + " &3to the block."));
+        //player.sendMessage(color(Prefix + "&3You have added &6" + name + " &3to the block."));
     }
     
     public static void delLoc(CommandSender player, String name) {
